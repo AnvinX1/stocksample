@@ -1,0 +1,21 @@
+{
+  "name": "stock-tracker-pwa",
+  "version": "1.0.0",
+  "description": "A Progressive Web App (PWA) for tracking stock prices with beautiful animations and glassmorphism design",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 server.py",
+    "build": "echo 'Static site - no build needed'",
+    "start": "python3 server.py"
+  },
+  "keywords": ["pwa", "stock", "tracker", "finance", "webgl", "glassmorphism"],
+  "author": "Lakshitha",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "postprocessing": "^6.37.8",
+    "three": "^0.180.0"
+  }
+}
